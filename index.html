@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pucuxz28 - Payment & Links</title>
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a; /* Warna latar belakang gelap seperti video */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container Utama (Kotak Biru) */
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background-color: #2563eb; /* Warna biru khas HeyLink */
+            border-radius: 12px;
+            padding: 25px 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Profil */
+        .profile-section {
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #1e3a8a;
+            border: 3px solid #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            overflow: hidden;
+        }
+        
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* Daftar Link (Tombol Putih) */
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 12px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #1e293b;
+            font-weight: 600;
+            font-size: 14px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .link-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Ikon kecil di dalam tombol */
+        .link-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        /* Warna ikon spesifik */
+        .icon-dana { background-color: #118eea; }
+        .icon-qris { background-color: #e11d48; }
+        .icon-wa { background-color: #25d366; }
+        .icon-channel { background-color: #0ea5e9; }
+
+        /* Teks Link */
+        .link-text {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        /* Ikon Share di kanan */
+        .share-icon {
+            color: #64748b;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Footer HeyLink */
+        .footer {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        .footer svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        /* Garis pemisah tipis */
+        .divider {
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 15px 0;
+        }
+
+        /* Bagian Judul Kecil */
+        .section-title {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            text-align: left;
+            padding-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profil -->
+        <div class="profile-section">
+            <div class="profile-img">
+                <!-- Ganti URL di bawah ini dengan foto profil Anda -->
+                <img src="https://ui-avatars.com/api/?name=Pucuxz28&background=0D8ABC&color=fff" alt="Pucuxz28">
+            </div>
+            <div class="profile-name">Pucuxz28</div>
+        </div>
+
+        <!-- Bagian Payment -->
+        <div class="section-title">Payment</div>
+        <div class="link-list">
+            <!-- Tombol DANA -->
+            <a href="https://wa.me/6281353682082?text=Halo%20saya%20mau%20bayar%20via%20DANA" target="_blank" class="link-item">
+                <div class="link-icon icon-dana">💳</div>
+                <div class="link-text">DANA: 081353682082<br><span style="font-size: 11px; font-weight: normal; color: #64748b;">A/N: KHOTIJAH</span></div>
+                <div class="share-icon">🔗</div>
+            </a>
+
+            <!-- Tombol QRIS -->
+            <!-- Ganti LINK_QRIS_SAYA dengan link gambar QRIS Anda -->
+            <a href="https://cdn.phototourl.com/member/2026-10-10-76af24b2-87d0-4d80-8eca-2444bc87aad0.jpg" target="_blank" class="link-item">
+                <div class="link-icon icon-qris">📱</div>
+                <div class="link-text">QRIS (Scan Bayar)</div>
+                <div class="share-icon">🔗</div>
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Bagian Kontak & Saluran -->
+        <div class="section-title">Hubungi & Ikuti</div>
+        <div class="link-list">
+            <!-- Tombol WhatsApp -->
+            <a href="https://wa.me//6285895196739" target="_blank" class="link-item">
+                <div class="link-icon icon-wa">💬</div>
+                <div class="link-text">WhatsApp Saya</div>
+                <div class="share-icon">🔗</div>
+            </a>
+
+            <!-- Tombol Saluran WA -->
+            <a href="https://whatsapp.com/channel/0029VbAMuJiGk1FpAqHGAq3y" target="_blank" class="link-item">
+                <div class="link-icon icon-channel">📢</div>
+                <div class="link-text">Saluran WhatsApp</div>
+                <div class="share-icon">🔗</div>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <!-- Ikon HeyLink sederhana -->
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V7h2v2zm4 8h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            <span>HeyLink.me</span>
+        </div>
+    </div>
+
+</body>
+</html>
